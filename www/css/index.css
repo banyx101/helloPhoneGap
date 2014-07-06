@@ -91,7 +91,18 @@ border: solid;
 
 /* new player END */
 
-
+#playcontrols {
+			text-align: center;
+			margin-top: 50px;
+		}
+		#playcontrols #activityindicator, #playcontrols #stopbutton {
+			display: none;
+		}
+		
+		#textpositiondiv {
+			margin-top: 100px;
+		}
+		
 	
 .play-fab{
 	

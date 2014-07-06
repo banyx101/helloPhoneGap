@@ -35,16 +35,29 @@
         </div>
         <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript" src="js/newPlayer.js"></script>
+        
         <script type="text/javascript">
             app.initialize();
         </script>
-	<div class="play-fab">
-		<audio class="player-fab" controls autoplay="autoplay">
-		<source src="http://95.154.254.157:31299/;stream.mp3" type="audio/mp3">
-  
-		</audio> 
-	</div>
+	
+    
+    <div class="play-fab">
+    <div id="playcontrols">
+		  <a href="#" id="playbutton" onClick="html5audio.play();return false;"><img src="img/playbutton.png" /></a>
+		  <a href="#" id="activityindicator" onClick="html5audio.stop();return false;"><img src="img/activityindicator.gif" />
+          </a>
+		  <a href="#" id="stopbutton" onClick="html5audio.stop();return false;"><img src="img/stopbutton.png" /></a>
+	  </div>
+	  <div id="textpositiondiv">Time played: <span id="textposition">stopped</span></div>
+      
+     </div> 
+      <script type="text/javascript" charset="utf-8" src="js/html5audio.js"></script>
+	  <script type="text/javascript">
+		  playButton = document.getElementById('playbutton');
+		  stopButton = document.getElementById('stopbutton');
+		  activityIndicator = document.getElementById('activityindicator');
+		  textPosition = document.getElementById('textposition');
+	  </script>
 		
         
              
