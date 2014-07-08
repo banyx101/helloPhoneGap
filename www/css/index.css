@@ -42,12 +42,40 @@ body {
     margin:0px;
     padding:0px;
     text-transform:uppercase;
-    width:100%;
+    
+	
+	
 }
 
 
 
 /*Fabjan New Player */
+
+.head{
+	
+	height: 50px;
+	border-bottom: 2px solid;
+	border-bottom-color:#eb2126;
+	background:#73bf45;	
+	font-weight:900;
+	text-align:center;
+	padding-top: 1px;
+	margin-top: 0;
+}
+
+.head a {
+	text-decoration:none;
+	color: #FFF;	
+}
+.buton{
+	background: #B5E1A2;
+	padding: 5px;
+	border: 2px solid;
+	border-color:#F4F4F4;
+	border-radius: 10px;
+	border-bottom-color:#999;
+	border-bottom-style:double;
+}
 
 #audioplayer{
 	width: 480px;
