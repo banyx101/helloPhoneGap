@@ -57,10 +57,14 @@ body {
 	border-bottom: 2px solid;
 	border-bottom-color:#eb2126;
 	background:#73bf45;	
-	font-weight:900;
+	font-weight: bold;
+	font-size: 14px;
 	text-align:center;
 	padding-top: 1px;
-	margin-top: 0;
+	text-decoration:none;
+	color: #FFF;
+	margin: 3px;
+	padding: 4px;
 }
 
 .head a {
